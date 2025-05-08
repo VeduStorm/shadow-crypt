@@ -24,7 +24,7 @@
 
 ---
 
-##📌 Contribute
+## 📌 Contribute
 I’m actively improving ShadowCrypt and looking forward to:
 
 Integrating a more optimized GUI

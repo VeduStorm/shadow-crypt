@@ -48,8 +48,7 @@
 
 ## 🙏 Credits
 
-Developed by [Vedant Gandhi](https://github.com/VeduStorm)  
-Thanks to PyQt5 and cryptography libraries
+Developed by [Vedant Gandhi](https://github.com/VeduStorm) | [Khush Shah](https://github.com/kspro416) 
 
 ---
 

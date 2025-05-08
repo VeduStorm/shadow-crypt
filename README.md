@@ -24,6 +24,22 @@
 
 ---
 
+##📌 Contribute
+I’m actively improving ShadowCrypt and looking forward to:
+
+Integrating a more optimized GUI
+
+Optimizing it for other platforms beyond Mac Silicon
+
+Got suggestions or want to help? Fork it, test it, and open a PR!
+To contribute or collaborate in this project reach out to us via <a href="mailto:vedant.storm@gmail.com">E-Mail</a>
+
+To get your name in Acknowledgements section please suggest me atleast 3 features which are helpful but are not integrated, give me alteast 5 bugs or any of the above and Mail it to me or reach out to me using any platform listed on Github profile [Vedant Gandhi](https://github.com/VeduStorm)
+
+Help us by filling out a survey form after using this program for 2-5 days [Survey Form](https://forms.gle/7G5yDveKVuDGUo377) and if you feedback is something special, we will be adding your github username/your name to Acknowledgements section
+
+---
+
 ## 🛠 Built With
 
 - `Python`
@@ -41,7 +57,7 @@
 
 ## 🚧 Planned Features
 
-- Integration of a **more optimized model via Ollama**
+- Integration of a **more optimized UI**
 - Optionally **encrypt output logs** (let us know if you'd like this!)
 
 ---
@@ -59,6 +75,19 @@ We'd love to hear from you:
 - Would encryption of decrypted outputs be helpful?
 - Any other encryption styles you'd like to see?
 
-👉 [Start a discussion](https://github.com/VeduStorm/shadow-crypt/discussions)
 
+---
+
+## Installation
+```bash
+# Clone repository
+git clone https://github.com/vedustorm/shadow-crypt.git
+cd shadow-crypt
+
+# Install dependencies
+pip3 install -r requirements.txt
+
+# Start
+python3 main.py
+```
 ---

@@ -62,10 +62,3 @@ We'd love to hear from you:
 👉 [Start a discussion](https://github.com/VeduStorm/shadow-crypt/discussions)
 
 ---
-
-## 📄 License
-
-MIT License  
-Feel free to fork, contribute, or modify.
-
-⭐ Star the repo if you support secure, offline tools!

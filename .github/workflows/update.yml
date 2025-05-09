@@ -26,7 +26,9 @@ jobs:
 
     - name: Build QRX3 EXE
       run: |
-        pyinstaller --noconfirm --windowed --name QRX3 --icon=icon.ico --add-data "data;data" main.py
+        pyinstaller --noconfirm --windowed --name ShadowCrypt --icon=icon.ico --add-data "data;data" main.py
+        echo "Listing dist directory..."
+        dir dist
 
     - name: Upload EXE artifact
       uses: actions/upload-artifact@v4

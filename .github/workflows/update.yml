@@ -26,7 +26,7 @@ jobs:
 
     - name: Build QRX3 EXE
       run: |
-        pyinstaller --noconfirm --windowed --name ShadowCrypt --icon=icon.ico --add-data "data;data" main.py
+        pyinstaller --noconfirm --windowed --name ShadowCrypt --icon=icon.ico --add-data "data;data" --hidden-import=sip --collect-binaries python main.py
         echo "Listing dist directory..."
         dir dist
 

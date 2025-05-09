@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: QRX3-windows-exe
-        path: dist/QRX3.exe
+        path: dist/ShadowCrypt/ShadowCrypt.exe

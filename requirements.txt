@@ -1,3 +1,0 @@
-PyQt5~=5.15.11
-cryptography~=3.4.7
-easygui~=0.98.3

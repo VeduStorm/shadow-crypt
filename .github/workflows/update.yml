@@ -1,0 +1,35 @@
+name: Build Windows EXE for QRX3
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13.1'  # Update if needed
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        pip install -r requirements.txt  # optional
+
+    - name: Build QRX3 EXE
+      run: |
+        pyinstaller --noconfirm --windowed --name QRX3 --icon=icon.ico --add-data "data;data" main.py
+
+    - name: Upload EXE artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: QRX3-windows-exe
+        path: dist/QRX3.exe

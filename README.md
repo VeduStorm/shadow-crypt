@@ -28,7 +28,7 @@
 2. Install dependencies:
 
    ```bash
-   pip install PySide6 cryptography python-dotenv
+   pip install PyQt5 PySide6 cryptography python-dotenv hkdf smtplib 
    ```
 3. Run the application:
 
